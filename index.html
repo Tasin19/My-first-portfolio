@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasin Ahmed</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <title>Tasin Ahmed</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body class="font-open-sans">
     <header>
         <nav>
             <div class="logo">
-                <h2>T4<span class="orange-color">S</span>1N</h2>
+                <h2>TA<span class="orange-color"><i class="fa-brands fa-sitrox"></i></span>IN</h2>
             </div>
             <ul class="menu">
                 <li><a href="">Portfolio</a></li>
@@ -25,15 +26,111 @@
             <div class="banner-content">
                 <h2>Hi, I am</h2>
                 <h1>Tasin Ahmed</h1>
-                <p>Focused, Fearless, Future-Ready Engineer. Turning curiosity into Code and Code into Impact.</p>
+                <p>Focused, Fearless, Future-Ready Engineer. Turning Curiosity into Code and Code into Impact.</p>
                 <div>
-                    <button class="btn">Download CV</button>
-                    <button class="btn">Contact</button>
+                    <button class="btn"><i class="fa-solid fa-download"></i> Download CV</button>
+                    <button class="btn"><i class="fa-solid fa-phone"></i> Contact</button>
                 </div>
             </div>
             <div class="banner-image"></div>
             <img src="images/tasin.jpg" alt="">
         </section>
     </header>
+    <section id="about">
+        <div class="about-container">
+            <div class="section-heading">
+                <h2>About me</h2>
+                <p>I’m Tasin Ahmed, a CSE student with a strong focus on web development and modern web technologies. I enjoy building responsive, user-friendly web applications with clean and maintainable code. I work with both front-end and back-end concepts, focusing on performance, scalability, and usability. I believe in continuous learning, hands-on practice, and writing code that solves real problems.</p>
+            </div>
+            <div class="about-info">
+                <div class="info-card">
+                    <p><i class="fa-solid fa-address-card"></i> Name</p>
+                    <h4>Tasin Ahmed</h4>
+                </div>
+                <div class="info-card">
+                    <p><i class="fa-solid fa-envelope"></i> Email</p>
+                    <h4>tasin436436@gmail.com</h4>
+                </div>
+                <div class="info-card">
+                    <p><i class="fa-solid fa-cake-candles"></i> Date of Birth</p>
+                    <h4>04 March 2005</h4>
+                </div>
+                <div class="info-card">
+                    <p><i class="fa-solid fa-location-dot"></i> From</p>
+                    <h4>Dhaka, Bangladesh</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="skill-container">
+            <div class="section-heading">
+                <h2>
+                    What I do
+                </h2>
+                <p>
+                    I build modern, responsive websites with clean and efficient code. I focus on performance, usability, and scalable design. I translate ideas into functional web experiences. I write maintainable front-end code using modern standards. I constantly refine my skills through hands-on practice and learning.
+                </p>
+            </div>
+            <div class="skill-box">
+                <div class="skill-card">
+                    <img src="images/icons/js.png" alt="">
+                    <h3>Javascript</h3>
+                    <p>
+                        I use JavaScript to build dynamic and interactive user interfaces. I understand core concepts like scope, closures, and asynchronous programming. I write clean, readable code focused on performance and usability.
+                    </p>
+                </div>
+                <div class="skill-card">
+                    <img src="images/icons/react.png" alt="">
+                    <h3>React JS</h3>
+                    <p>
+                        I build component-based user interfaces using React. I manage state and props to create dynamic, reusable components. I focus on clean UI structure and smooth user experience.
+                    </p>
+                </div>
+                <div class="skill-card">
+                    <img src="images/icons/nodejs.png" alt="">
+                    <h3>Node JS</h3>
+                    <p>
+                        I build server-side applications using Node.js and Express. I create RESTful APIs and handle backend logic efficiently. I work with middleware, routing, and database integration.
+                    </p>
+                </div>
+                <div class="skill-card">
+                    <img src="images/icons/mongo.png" alt="">
+                    <h3>MongoDB</h3>
+                    <p>
+                        I use MongoDB to design and manage flexible, document-based databases. I work with CRUD operations and schema design using Mongoose. I focus on data consistency and efficient querying.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section class="footer-container">
+            <div class="social">
+                <h2>Let's Connect</h2>
+                <p>
+                    Please fill out the form on this section to connect with me or call me between 9:00AM and 8:00PM, Monday through Friday.
+                </p>
+                <div class="icons">
+                    <a href=""><img src="images/icons/facebook.png" alt=""></a>
+                    <a href=""><img src="images/icons/insta.png" alt=""></a>
+                    <a href=""><img src="images/icons/twitter.png" alt=""></a>
+                </div>
+            </div>
+            <form class="form">
+                <h2>Let's Message me</h2>
+                <div class="">
+                    <input type="text" name="" id="" placeholder="Your Name">
+                </div>
+                <div class="">
+                    <input type="text" name="" id="" placeholder="Email Address">
+                </div>
+                <div>
+                    <textarea rows="10" name="" id="" placeholder="Message"></textarea>
+                </div>
+                <input type="submit" value="Submit" class="btn">
+            </form>
+        </section>
+    </footer>
 </body>
 </html>
